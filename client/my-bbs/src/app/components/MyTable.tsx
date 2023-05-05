@@ -14,7 +14,7 @@ import { faAngleLeft, faAngleRight, faAnglesLeft, faAnglesRight } from '@fortawe
 const inter = Inter({ subsets: ['latin'] })
 
 interface Props {
-  data: (number | string)[][]
+  data: [number, string, string][]
 }
 
 export default function MyTable(props: Props ) {
