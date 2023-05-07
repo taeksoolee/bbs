@@ -1,4 +1,5 @@
 // https://nextjs.org/docs/app/building-your-application/routing/router-handlers
+// /api/contents
 
 import { NextResponse } from 'next/server';
 
